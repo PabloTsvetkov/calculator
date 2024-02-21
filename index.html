@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <div>
+        <form>
+            <input type="number" id="first_number">
+            <p> + </p>
+            <input type="number" id="second_number">
+        </form>
+    </div>
+    <button id="btn" style="margin: 10px">equal</button>
+    <div id="main">
+    </div>
+    <script>
+        const main = document.getElementById('main');
+        //main.innerHTML='';
+        function hw() {
+            const hello = document.createTextNode('Hello, world!');
+            //main.style.backgroundColor = "red";
+            main.appendChild(hello);
+        }
+        btn.addEventListener('click', hw);
+    </script>
+</body>
+</html>
